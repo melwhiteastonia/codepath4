@@ -33,8 +33,8 @@ In our app,'Calendar', users can create calendar events and daily tasks on the g
 
 **Optional Nice-to-have Stories**
 * View event by
-     - [ ] Day
-     - [ ] Week
+     - [x] Day
+     
 * Use Google API to show location of events
 * Share events by email
 
@@ -63,8 +63,7 @@ In our app,'Calendar', users can create calendar events and daily tasks on the g
 
 * Calendar
    * Monthly View -> Compose **Jumps to Compose Screen**
-   * Weekly View -> Compose **Jumps to Compose Screen**
-   * Daily View -> Compose **Jumps to Compose Screen**
+   * Daily View -> Compose **Information Displayed (automatically saved in bar)**
 * Compose
    * Overview of Event to Confirm -> Calendar Screen - Daily View   
 * Todo List
