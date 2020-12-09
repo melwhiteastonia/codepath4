@@ -33,7 +33,9 @@ In our app,'Calendar', users can create calendar events and daily tasks on the g
 
 **Optional Nice-to-have Stories**
 * View event by
-     - [x] Day
+     - [] Day
+     - [] Week
+     - [] Month 
      
 * Use Google API to show location of events
 * Share events by email
