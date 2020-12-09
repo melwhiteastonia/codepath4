@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/selectedYear"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="40dp"-->
+    <!--            android:gravity="center"-->
+    <!--            android:textColor="#00000000" />-->
+
+
+    <TextView
+        android:id="@+id/selectedDay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="30sp"/>
+
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="594dp"></CalendarView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:background="@color/colorAccent"
+        app:menu="@menu/bottom_nav_menu"/>
+    />
+
+
+    <LinearLayout
+    android:id="@+id/dayContent"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <EditText
+
+        android:hint="write something"
+        android:id="@+id/textInput"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#000000"/>
+
+
+
+    <Button
+
+        android:id="@+id/saveTextButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="save"/>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
